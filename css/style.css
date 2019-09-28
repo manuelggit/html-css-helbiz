@@ -3,3 +3,21 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#nav-logo, li {
+  text-align: center;
+  font-size: 25px;
+}
+
+li {
+  font-size: 10px;
+  position: relative;
+}
