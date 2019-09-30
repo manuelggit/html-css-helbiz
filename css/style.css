@@ -18,7 +18,30 @@ a {
 }
 
 #nav-menu {
-  padding-top: 0;
+  padding-top: 1;
+}
+
+@media screen and (max-width: 991px) {
+
+  #nav-menu {
+    display: none;
+  }
+
+  .ham {
+  width: 35px;
+  height: 3px;
+  background-color: black;
+  margin: 4px 0;
+  }
+
+  .hamburger {
+    float: right;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ham {
+    display: none;
 }
 
 
